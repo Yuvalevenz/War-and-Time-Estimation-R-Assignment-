@@ -8,8 +8,10 @@ This repository contains an R-based analysis examining the effects of war on tim
 **"TimeEstimation2.R"** - Pre-Processing (Q2).
 **"TimeEstimation3.R"** - Data analysis and results visualization (Q3).
 **"TranslationFunction.R"** - Used for data translation.
+
 ### Report
 **"Final Assignment - Introduction to R.pdf"** - Full report containing answers, interpretations, and visualizations.
+
 ### Data Files
 **"Study 1 analysis.csv"** - Raw data from study 1 (before the war).
 **"Study 2 analysis.csv"** - Raw data from study 2 (during the war).
