@@ -36,7 +36,7 @@ plot(allEffects(mlr_model))
 # Boxplot of Study Period effect on Absolute Error Size
 ggplot(df_filtered, aes(x = Study_Period, y = Absolute_Error_Size, fill = Study_Period)) +
   geom_boxplot(alpha = 0.6) +
-  stat_compare_means(method = "t.test", label = "p.signif") +  # Add p-value significance
+  stat_compare_means(method = "t.test", label = "p.signif") +  # t.test was only used for adding p-value significance in the graph.
   labs(title = "Effect of Study Period on Absolute Error Size",
        x = "Study Period",
        y = "Absolute Error Size") +
